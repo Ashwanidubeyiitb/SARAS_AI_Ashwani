@@ -2,7 +2,7 @@
 venv/
 
 # Ignore node_modules from React project
-smart-faq-app/node_modules/
+# smart-faq-app/node_modules/
 
 # Ignore Python cache files
 __pycache__/
