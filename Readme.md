@@ -4,6 +4,9 @@ An AI-powered FAQ module built for **SARAS AI Institute**, designed to interpret
 
 ---
 
+For frontend clone: https://github.com/Ashwanidubeyiitb/Smart-faq_Frontend
+and do npm start after npm install
+
 ## Features
 - **Semantic Search**: Leverages Sentence-BERT for natural language understanding.
 - **Voice Input**: Supports voice-based queries.
