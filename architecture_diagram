@@ -1,0 +1,15 @@
+// FAQ Matching System Architecture
+digraph architecture {
+	A [label="User Interface (React.js)"]
+	B [label="Django REST API (Backend)"]
+	C [label="Sentence-BERT Model (Semantic Search)"]
+	D [label="FAQ Data (JSON/Database)"]
+	A -> B [label="User Query via POST Request"]
+	B -> C [label="Pass Query to Sentence-BERT for Embedding"]
+	C -> D [label="Search FAQ Embeddings"]
+	D -> C [label="Return Best Matching FAQ"]
+	C -> B [label="Send Response"]
+	B -> A [label="Return FAQ Answer"]
+	color=blue fontsize=20 label="FAQ Matching System Architecture"
+	color=black fontsize=14
+}
